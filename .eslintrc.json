@@ -1,0 +1,17 @@
+{
+  "extends": "airbnb",
+  "plugins": ["prettier", "react"],
+  "rules": {
+    "comma-dangle": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "prettier/prettier": ["error"],
+    "react/destructuring-assignment": "off",
+    "no-console": "off",
+    "arrow-parens": "off",
+    "react/jsx-one-expression-per-line": [0, { "extensions": [".js", ".jsx"] }]
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}
